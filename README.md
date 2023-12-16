@@ -13,5 +13,4 @@ in the right place. Then if you notice something else showing in the details of 
 software and check the details of the hacked or phished computer after a set of authentication tests, if you see any difference you can confirm that the computer is being compromised.
 In the source code, there are only two areas for writing the details, but you can add more areas for writing more computer details.
 
-for the source code of the software please click: [Panopticon Sentinel Software.py](https://github.com/megg-at-github/Panopticon-Open-Source-Project/blob/main/Panopticon%20Sentinel%20Software%20.py)
 
