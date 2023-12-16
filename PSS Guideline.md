@@ -4,7 +4,7 @@ This software is made with good intentions for organizing cloud computers and of
 or the enhanced version of the software. The software license used here is the [MIT License](https://github.com/megg-at-github/Panopticon-Open-Source-Project/blob/main/LICENSE)
 
 
-If somebody has any malicious intentions to do something with the software, the founder or any of the contributors is responsible for the losses made by the malicious thinker.
+If somebody has any malicious intentions to do something with the software, the founder or any of the contributors is not responsible for the losses made by the malicious thinker.
 
 How to use and program the software
 
