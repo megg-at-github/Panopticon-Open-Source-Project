@@ -5,7 +5,30 @@ print('Welcome to Panopticon Sentinel Software')
 running = input("host[PLACEHOLDER]/[PLACEHOLDER]/[DATE] UTC/")
 
 # Generic login prompt
+import password 
+# Minimum length
+min_length = 10
+
+# Required character classes
+required_classes = {
+    "uppercase": True,
+    "lowercase": True,
+    "number": True,
+    "symbol": True,
+}
+
 notif = input("Enter Login Key")
+
+if not password.check(login_key, min_length, required_classes):
+    print("Login key does not meet complexity requirements.")
+    print("Please ensure your password has:")
+    print(f"- At least {min_length} characters")
+    print("- One uppercase letter")
+    print("- One lowercase letter")
+    print("- One number")
+    print("- One symbol")
+    quit()
+
 
 # Access granted/denied logic with a placeholder password
 if running == "[PLACEHOLDER_PASSWORD]":
@@ -68,3 +91,4 @@ if running == "extrt macro info":
     print('entry pin: [PLACEHOLDER_PIN], Administrator: [PLACEHOLDER_ADMIN], progrunn: [PLACEHOLDER_PROGRAM_COUNT], programs on use: [PLACEHOLDER_PROGRAM_1]; [PLACEHOLDER_PROGRAM_2]')
 else:
     print(f"[{PLACEHOLDER_HOSTNAME}]/[PLACEHOLDER_DATE] UTC/Error occured")
+
