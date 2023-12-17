@@ -13,6 +13,13 @@ in the right place. Then if you notice something else showing in the details of 
 software and check the details of the hacked or phished computer after a set of authentication tests, if you see any difference you can confirm that the computer is being compromised.
 In the source code, there are only two areas for writing the details, but you can add more areas for writing more computer details.
 
+How to run this software
+
+You can only run the software on a code editor, and that is easy
+
+You can run this software on any code editor terminal. First, you want to download the code and paste it into any code editor, then run it,
+then you can access the software or just open the downloaded file on the command prompt. I recommend you to use visual studio easy to access use.
+
 
 
 
