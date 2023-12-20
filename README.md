@@ -15,8 +15,8 @@ In the source code, there are only two areas for writing the details, but you ca
 
 How to run this software
 
-You can only run the software on a code editor, and that is easy
+You can only run the software on a code editor or Command Prompt, and that is easy
 
 You can run this software on any code editor terminal. First, you want to download the code and paste it into any code editor, then run it,
-then you can access the software or just open the downloaded file on the command prompt. I recommend you to use [Visual Studio Code](code.visualstudio.com) Code is easy to access use. To understand how to use the software, you just want to analyze the code and understand it.
+then you can access the software or just open the downloaded file. I recommend you to use [Visual Studio Code](code.visualstudio.com) or Command Prompt to run the software. To understand how to use the software, you just want to analyze the code and understand it.
 
