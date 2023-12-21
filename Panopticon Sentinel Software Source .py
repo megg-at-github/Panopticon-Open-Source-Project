@@ -56,7 +56,7 @@ notif = input("[PLACEHOLDER_INPUT_PROMPT]")
 
 # Macro information extraction command and response
 if running == "extrt macro info":
-    print('entry pin: [PLACEHOLDER_PIN], Administrator: [PLACEHOLDER_ADMIN], progrunn: [PLACEHOLDER_PROGRAM_COUNT], programs on use: [PLACEHOLDER_PROGRAM_1]; [PLACEHOLDER_PROGRAM_2]')
+    print('entry pin: [PLACEHOLDER_PIN], Administrator: [PLACEHOLDER_ADMIN], programs on use: [PLACEHOLDER_PROGRAM_1]; [PLACEHOLDER_PROGRAM_2]')
 else:
     print(f"[{PLACEHOLDER_HOSTNAME}]/[PLACEHOLDER_DATE] UTC/Error occured")
 
@@ -88,7 +88,6 @@ notif = input("[PLACEHOLDER_INPUT_PROMPT]")
 
 # Macro information extraction command and response
 if running == "extrt macro info":
-    print('entry pin: [PLACEHOLDER_PIN], Administrator: [PLACEHOLDER_ADMIN], progrunn: [PLACEHOLDER_PROGRAM_COUNT], programs on use: [PLACEHOLDER_PROGRAM_1]; [PLACEHOLDER_PROGRAM_2]')
+    print('entry pin: [PLACEHOLDER_PIN], Administrator: [PLACEHOLDER_ADMIN], programs on use: [PLACEHOLDER_PROGRAM_1]; [PLACEHOLDER_PROGRAM_2]')
 else:
     print(f"[{PLACEHOLDER_HOSTNAME}]/[PLACEHOLDER_DATE] UTC/Error occured")
-
