@@ -47,7 +47,7 @@ notif = input("machine found: [PLACEHOLDER_SERVER_NAME]")
 
 # System information extraction command and response
 if running == "extrt machine info":
-    print(f'system: [PLACEHOLDER_OS], cpu: [PLACEHOLDER_CPU], storage: [PLACEHOLDER_STORAGE], ram: [PLACEHOLDER_RAM], no. of softcomp containing: [PLACEHOLDER_COMPONENT_COUNT] comp.')
+    print(f'system: [PLACEHOLDER_OS], cpu: [PLACEHOLDER_CPU], storage: [PLACEHOLDER_STORAGE], ram: [PLACEHOLDER_RAM], no. of softcomp containing: [PLACEHOLDER_COMPONENT_COUNT] comp. average cpu performance: [PLACEHOLDER_CPU_PERFORMANCE]')
 else:
     print(f"[{PLACEHOLDER_HOSTNAME}]/[PLACEHOLDER_DATE] UTC/Error occured")
 
@@ -79,7 +79,7 @@ notif = input("machine found: [PLACEHOLDER_SECOND_SERVER_NAME]")
 
 # System information extraction command and response
 if running == "extrt machine info":
-    print(f'system: [PLACEHOLDER_OS], cpu: [PLACEHOLDER_CPU], storage: [PLACEHOLDER_STORAGE], ram: [PLACEHOLDER_RAM], no. of softcomp containing: [PLACEHOLDER_COMPONENT_COUNT] comp.')
+    print(f'system: [PLACEHOLDER_OS], cpu: [PLACEHOLDER_CPU], storage: [PLACEHOLDER_STORAGE], ram: [PLACEHOLDER_RAM], no. of softcomp containing: [PLACEHOLDER_COMPONENT_COUNT] comp. average cpu performance: [PLACEHOLDER_CPU_PERFORMANCE]')
 else:
     print(f"[{PLACEHOLDER_HOSTNAME}]/[PLACEHOLDER_DATE] UTC/Error occured")
 
@@ -91,3 +91,5 @@ if running == "extrt macro info":
     print('entry pin: [PLACEHOLDER_PIN], Administrator: [PLACEHOLDER_ADMIN], programs on use: [PLACEHOLDER_PROGRAM_1]; [PLACEHOLDER_PROGRAM_2]')
 else:
     print(f"[{PLACEHOLDER_HOSTNAME}]/[PLACEHOLDER_DATE] UTC/Error occured")
+
+    
