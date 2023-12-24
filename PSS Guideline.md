@@ -15,11 +15,15 @@ In the source code, there are only two areas for writing the details, but you ca
 
 How to run this software
 
-You can run the software on a Command Prompt, and that is easy
+You can run the software on a Command Prompt or any code editors, and that is easy
 
 You can run this software on Command Prompt. First, you want to download the code , then run it,
-then you can access the software or just open the downloaded file . I recommend you to use Command Prompt to run the software. To understand how to use the software, you just want to analyze the code and understand it.
+then you can access the software or just open the downloaded file in Command Prompt and run it. I recommend you to use a code editor to run this software to run the software. To understand how to use the software, you just want to analyze the code and understand it.
 
+Requirements for the software:
+1. Needed storage: 3.36 KB.
+2. Certainly install Python to the device which is running this software.
+3. Install any code editor, for a better environment than the command prompt.
 
 
 
