@@ -29,6 +29,20 @@ if not password.check(login_key, min_length, required_classes):
     print("- One symbol")
     quit()
 
+import bcrypt
+
+# Generate salt
+salt = bcrypt.gensalt()
+
+# Hash password
+password = "[PLACEHOLDER_PASSWORD]".encode('utf-8')
+hashed_password = bcrypt.hashpw(password, salt)
+
+# Verify password
+if bcrypt.checkpw(password, hashed_password):
+    print("Password matched")
+else:
+    print("Password did not match.")
 
 # Access granted/denied logic with a placeholder password
 if running == "[PLACEHOLDER_PASSWORD]":
