@@ -24,5 +24,6 @@ Requirements for the software:
 1. Needed storage: 3.39 KB.
 2. Certainly install Python to the device which is running this software.
 3. Install any code editor, for a better environment than the command prompt.
+4. Then import Bcrypt, and Password module from Command Prompt. If you don't know, search in Google
 
 
